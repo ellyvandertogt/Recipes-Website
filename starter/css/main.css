@@ -368,13 +368,24 @@ Page
 */
 
 .page {
-  background: pink;
+  /* background: pink; */
   width: 90vw;
   max-width: var(--max-width);
   margin: 0 auto;
   padding-top: 2rem;
   min-height: calc(100vh - (6rem + 4rem));
  
+}
+/*
+=============== 
+Hero 
+===============
+*/
+.hero {
+  height: 40vh;
+  background: url("../assets/main.jpeg") center/cover no-repeat;
+  margin-bottom: 2rem;
+  border-radius: var(--borderRadius);
 }
 /*
 =============== 

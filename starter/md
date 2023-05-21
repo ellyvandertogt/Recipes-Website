@@ -1,9 +1,13 @@
-
+            Question    
 Connection between line 15 with 31
 
 line 31 i. i tag is italic 
 
-Note
+
+css line 389
+.page-footer a: color doesnt apply 
+
+                    Note
 Toggle 
 Hamburger menu
 CSS: nav-links 
@@ -12,5 +16,10 @@ CSS: nav-links
 then you create an element in CSS called 
 "show-link"
 * height: 310px;
-
   
+Minimum hight   
+min-height: calc(100vh -(6rem + 4rem));
+6rem is the Nav and 4rem is the footer
+
+Date (current)
+<span id="date"></span>
