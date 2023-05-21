@@ -7,6 +7,14 @@ line 31 i. i tag is italic
 css line 389
 .page-footer a: color doesnt apply 
 
+
+@media screen and line 329
+
+nav-header line 26
+consists logo and burger menu
+
+line 414 Margin button 0, what is the use on @media schreen
+
                     Note
 Toggle 
 Hamburger menu
