@@ -414,6 +414,28 @@ Hero
     margin-bottom: 0;
   }
 }
+
+/* 
+=============== 
+Recipes
+=============== 
+*/
+.recipes-container {
+  display: grid;
+  gap: 2rem 1rem;
+  border:2px solid red;
+}
+.tags-container {
+  border:2px solid blue;
+  order: 1;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+
+
+
 /*
 =============== 
 Footer
@@ -434,8 +456,24 @@ Footer
   color: var(--primary-500);
 }
 
+/* 
+=============== 
 
 =============== 
-Navbar
-===============
+*/
+
+/* 
+=============== 
+
+=============== 
+*/
+/* 
+=============== 
+
+=============== 
+*/
+/* 
+=============== 
+
+=============== 
 */
