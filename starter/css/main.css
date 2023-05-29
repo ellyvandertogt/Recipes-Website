@@ -423,11 +423,11 @@ Recipes
 .recipes-container {
   display: grid;
   gap: 2rem 1rem;
-  border:2px solid red;
+  
   
 }
 .tags-container {
-  border:2px solid blue;
+
   order: 1;
   display: flex;
   flex-direction: column;
@@ -437,7 +437,7 @@ Recipes
   display: grid;
   gap: 2rem 1rem;
   padding-bottom: 3rem;
-  border:2px solid green;
+ 
 }
 
 .tags-container h4 {
@@ -493,9 +493,24 @@ Recipes
   .recipes-container {
     grid-template-columns: 200px 1fr;
   }
+  .recipe p {
+    font-size: 0.85rem;
+  }
+  .tags-container {
+    order: 0;
+  }
+  .tags-list {
+    grid-template-columns: 1fr;
+  }
+ 
 }
 @media screen and (min-width: 1200px) {
-  
+  .recipe h5 {
+    font-size: 1.15rem;
+  }
+  .recipes-list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 
@@ -521,15 +536,34 @@ Footer
 
 /* 
 =============== 
-
+Error
 =============== 
 */
+.error-page {
+  text-align: center;
+  padding-top: 5rem;
+}
+.error-page h1 {
+  font-size: 9rem;
+}
 
 /* 
 =============== 
-
+ABOUT
 =============== 
 */
+.about-page h2 {
+  text-transform: none;
+  font-weight: bold;
+}
+.about-page {
+  display: grid;
+  gap: 2rem 4rem
+}
+.featured-title {
+  text-align: center;
+  margin-bottom: 5rem;
+}
 /* 
 =============== 
 
