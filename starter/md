@@ -15,6 +15,10 @@ consists logo and burger menu
 
 line 414 Margin button 0, what is the use on @media schreen
 
+Line 425
+gap: 2rem 1rem;
+
+
                     Note
 Toggle 
 Hamburger menu
